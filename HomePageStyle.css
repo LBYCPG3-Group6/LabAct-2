@@ -2,8 +2,6 @@ body{
     background-color: lightblue;
 }
 
-
-
 .Main{
     position: relative;
     display: grid;
@@ -49,7 +47,7 @@ img {
 }
 
 .image:hover img{
-    opacity: 0.3;
+    opacity: 0.2;
     filter: blur(5px);
 }
 
@@ -67,4 +65,15 @@ img {
     text-align: center;
     word-spacing: 5px;
 
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: black;
 }
