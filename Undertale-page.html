@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>About Undertale</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			@font-face { /* Undertale */
+				font-family: 'Undertale';
+				src: url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot');
+				src: url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot?#iefix') format('embedded-opentype'),
+					 url('http://vignette3.wikia.nocookie.net/heliosanctus/images/a/aa/Determination.woff2') format('woff2'),
+					 url('http://vignette3.wikia.nocookie.net/heliosanctus/images/3/37/Determination.woff') format('woff'),
+					 url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/cd/Determination.ttf') format('truetype'),
+					 url('http://vignette3.wikia.nocookie.net/heliosanctus/images/7/7f/Determination.svg#Undertale') format('svg');}
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			  background-image: url("https://lh3.googleusercontent.com/iGut4eA6sDwyjHePeCy2e8aPh3cjIVO3QaUd6DZpE_yNRa8sdq2Y8JsaO7rturwMZ5JWTcK3Eg5Cl21AJvKJ");
+			}
+
+			/* Style the header */
+			header {
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 20%;
+			  background: #13001a;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  font-family: 'Undertale';
+			  font-size: 30px;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 80%;
+			  background-color: #000000;
+			  color: white;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color:  #260033;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+				width: 100%;
+				height: auto;
+			  }
+			}
+			
+			/* tell the container's children to float left: */
+			.float-my-children > * {
+				float:left;
+				margin-right:5px;
+			}
+
+			/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+			.clearfix {
+				*zoom:1 /* for IE */
+			}
+
+			.clearfix:before,
+			.clearfix:after {
+				content: " ";
+				display: table;
+			}
+
+			.clearfix:after {
+				clear: both;
+			}
+
+			/* end clearfix*/
+		</style>
+	</head>
+
+	<body>
+		<h2> <a href="HomePage.html">Back to Home</a> </h2>
+		<section id="Top">
+
+		<header>
+			<img src="https://undertale.com/assets/images/logo.png" alt="undertale-header">
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="#Story">Story</a></li>
+					<li><a href="#How-to-play">How to play</a></li>
+					<li><a href="#Characters">Characters</a></li>
+					<li><a href="#Game-Rules">Game Rules</a></li>
+				</ul>
+			</nav>
+			  
+			<article>
+				<section id="About-Undertale">
+				<h2>About Undertale</h2>
+				<p>Undertale (stylized as UNDERTALE and formerly UnderTale[1]) is a role-playing game developed independently by Toby Fox with additional art by Temmie Chang in the Game Maker: Studio engine. It was released for Microsoft Windows and Mac OS X on September 15, 2015, for Linux on July 17, 2016, for PlayStation 4 and PlayStation Vita on August 15, 2017, and for Nintendo Switch on September 18, 2018. A version for Xbox One and Xbox Series X|S was released on March 16, 2021.[2] The game has been met with overwhelmingly positive reviews. </p>
+				<p>There's also a special collector's edition sold exclusively on Fangamer (the Nintendo Switch edition can also be bought at select Best Buy stores), which includes the game's soundtrack and a music box locket, among other things. </p>
+				<br>
+				
+				<section id="Story">
+				<h2>Story</h2>
+				<p>Long ago, two races ruled over the Earth: Humans and Monsters. One day, a war broke out between the two races and after a long series of battle, the humans were victorious. The greatest of their magicians confined the monsters to the Underground with a magic barrier. However, this barrier is not perfect. </p>
+				<p>Many years after the war, in 201X, a human child climbs Mount Ebott for their own mysterious reason. It is said that those who climb the mountain never return. The child discovers an enormous hole in the mountain and falls in. After that, the story begins. </p>
+				<p>The protagonist starts off their adventure in the Ruins and soon meets Flowey, a sadistic flower who attempts to kill the protagonist for his own amusement. He is thwarted by a motherly monster named Toriel, who teaches the child how to solve puzzles and resolve conflicts in the Underground. After a boss fight with her, she allows the child to exit the Ruins, ending the demo. </p>
+				<br> 
+				
+				<section id="How-to-play">
+				<h2>How to play</h2>
+				 <img src="https://thumbnails.pcgamingwiki.com/4/4b/Undertale_-_General.png/300px-Undertale_-_General.png" alt="Keyboard-controls"> 
+				<p>You can play Undertale with a keyboard or a controller. For the default keyboard options, the arrow keys move your character around the world, and they are used for selecting options in menus and in battle. Z is the confirmation button for menus while X exits menus. C pauses the game and brings up your health plus other stats. Those are basically all the controls you need.</p>
+				<br> 
+				
+				<section id="Characters">
+				<h2>Characters</h2>
+				<div class="clearfix float-my-children">
+				   <img src="https://static.wikia.nocookie.net/undertale/images/f/f8/Frisk_overworld.png/revision/latest?cb=20151018200133" width=100>
+				   <div>Frisk is the playable character and main protagonist of Undertale. After Frisk falls into the Underground, they embark on a journey to return to the surface.</div>
+				   <div>Frisk is the last of the eight humans to fall into the Underground after traveling to Mount Ebott. </div>
+				   <div>Frisk is not the "fallen human" whom the player names at the beginning of the game, but Frisk's name is only revealed in the True Pacifist Route.  </div>
+				</div>
+				<br>
+				
+				<div class="clearfix float-my-children">
+				   <img src="https://static.wikia.nocookie.net/undertale/images/0/05/Flowey_battle_talk.gif/revision/latest?cb=20151202211124" width=100>
+				   <div>Flowey (/ˈflaʊi/) is the first major character that the protagonist encounters in Undertale.</div>
+				   <div>He is the main antagonist for the majority of the game, specifically the Neutral and True Pacifist routes.</div>
+				   <div>He can be considered a deuteragonist for the Genocide Route</div>
+				   <div>He provides an introduction to the mechanics of encounters by sharing "friendliness pellets," which are actually harmful bullets.</div>
+				</div>
+				<br>
+				<br>
+				
+				<div class="clearfix float-my-children">
+				   <img src="https://static.wikia.nocookie.net/undertale/images/f/f3/Toriel_battle.png/revision/latest?cb=20200902125422" width=100>
+				   <div>Toriel is the second character the protagonist encounters in Undertale. </div>
+				   <div>She saves the protagonist from Flowey and guides them through the Ruins.  </div>
+				</div>
+				<br>
+				
+				<div class="clearfix float-my-children">
+				   <img src="https://static.wikia.nocookie.net/undertale/images/0/0f/Sans_battle_idle.gif/revision/latest?cb=20181110100333" width=100>
+				   <div>Sans (/sænz/) is the brother of Papyrus and a major character in Undertale.</div>
+				   <div>He first appears in Snowdin Forest after the protagonist exits the Ruins.</div>
+				   <div>He serves as a supporting character in the Neutral and True Pacifist routes, and as the final boss and heroic antagonist in the Genocide Route.</div>
+				</div>
+				<br>
+					
+				<section id="Game-Rules">
+				<h2>Game Rules</h2>
+				<img src="https://static.wikia.nocookie.net/undertale/images/9/95/Mad_Dummy_screenshot_battle.gif/revision/latest?cb=20151203062739" alt="undertale-battle">
+				<p>Undertale is a role-playing game that utilizes many of the traditional mechanics normally seen in role-playing games but with a number of differences.</p>
+				<p>The battle system in Undertale is turn-based and seems to be heavily inspired by bullet-hell games – in particular, the Touhou series – where the protagonist's SOUL, represented by a red heart, must avoid attacks unleashed by the opponent. As the game progresses, new elements are introduced, such as colored obstacles which require the soul to stay still or move through them, and some battles (including some of the Boss battles) which change the way the heart is controlled. During the player's turn, they have the opportunity to fight the opponent (involving quick-time input), perform actions that can change the opponent's mood, use items, and show mercy by sparing the enemy, which ends the combat if the correct actions have been used. Killing an enemy will reward EXP and LV, but neither are given if they are successfully spared; GOLD is earned in both cases. The game has a large emphasis on the morality of killing and sparing the Monsters encountered, as the player's actions determine what ending they will receive. Unlike traditional RPGs, it is possible to complete the game without ever killing a single monster. </p>
+				<p>The overworld mostly consists of puzzles that the player must solve to progress. Monster battles can also be seen as puzzles, requiring the right set of actions to resolve the fight peacefully. However, should the player decide to commit to murdering every monster they can find, almost all the puzzles are disabled, and the player is required to grind to progress the game. Unlike traditional RPGs, grinding (under a neutral setting) and backtracking are not mandatory, and almost no side quests exist within the game. </p>
+				<p>The game is also known for its dialogue that is witty and humorous as well as having drastic alterations based on the player's actions, and occasional breaking of the fourth wall. While killing/sparing results in notable dialogue changes, the most prominent alteration involves the manipulation of the game's SAVE feature, particularly quitting or resetting the game: almost every major character possesses meta-knowledge, remembering actions the player had performed in previous playthroughs. </p>
+				<br>
+			</article>
+		</section>
+
+		<footer>
+			<p>References</p>
+			<p>https://undertale.fandom.com/wiki/Main_Page</p>
+			<a href="#Top">Back To Top</a>
+		</footer>
+	</body>
+</html>
